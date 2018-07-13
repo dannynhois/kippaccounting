@@ -1,7 +1,7 @@
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-  service: 'SendGrid',
+  service: "SendGrid",
   auth: {
     user: process.env.SENDGRID_USER,
     pass: process.env.SENDGRID_PASSWORD
@@ -13,11 +13,11 @@ const transporter = nodemailer.createTransport({
  * Contact form page.
  */
 exports.getContact = (req, res) => {
-  const unknownUser = !(req.user);
+  const unknownUser = !req.user;
 
-  res.render('contact', {
-    title: 'Contact',
-    unknownUser,
+  res.render("contact", {
+    title: "Contact",
+    unknownUser
   });
 };
 
@@ -29,39 +29,41 @@ exports.postContact = (req, res) => {
   let fromName;
   let fromEmail;
   if (!req.user) {
-    req.assert('name', 'Name cannot be blank').notEmpty();
-    req.assert('email', 'Email is not valid').isEmail();
+    req.assert("name", "Name cannot be blank").notEmpty();
+    req.assert("email", "Email is not valid").isEmail();
   }
-  req.assert('message', 'Message cannot be blank').notEmpty();
+  req.assert("message", "Message cannot be blank").notEmpty();
 
   const errors = req.validationErrors();
 
   if (errors) {
-    req.flash('errors', errors);
-    return res.redirect('/contact');
+    req.flash("errors", errors);
+    return res.redirect("/contact");
   }
 
   if (!req.user) {
     fromName = req.body.name;
     fromEmail = req.body.email;
   } else {
-    fromName = req.user.profile.name || '';
+    fromName = req.user.profile.name || "";
     fromEmail = req.user.email;
   }
 
   const mailOptions = {
-    to: 'your@email.com',
+    to: "dnhoisaykham@kipphouston.org",
     from: `${fromName} <${fromEmail}>`,
-    subject: 'Contact Form | Hackathon Starter',
+    subject: "Contact Form | KIPP App Site",
     text: req.body.message
   };
 
   transporter.sendMail(mailOptions, (err) => {
     if (err) {
-      req.flash('errors', { msg: err.message });
-      return res.redirect('/contact');
+      // TODO: Delete line below once feature is implemented
+      err.message += "*** Feature is not currently setup: please email directly to dnhoisaykham@kipphouston.org ***";
+      req.flash("errors", { msg: err.message });
+      return res.redirect("/contact");
     }
-    req.flash('success', { msg: 'Email has been sent successfully!' });
-    res.redirect('/contact');
+    req.flash("success", { msg: "Email has been sent successfully!" });
+    res.redirect("/contact");
   });
 };
