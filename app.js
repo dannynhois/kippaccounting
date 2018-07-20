@@ -35,6 +35,7 @@ const userController = require("./controllers/user");
 const apiController = require("./controllers/api");
 const contactController = require("./controllers/contact");
 const codingSolutionController = require("./controllers/codingsolution");
+const accountcodehelper = require("./controllers/helpers/accountcodehelper");
 
 /**
  * API keys and Passport configuration.
@@ -58,7 +59,7 @@ mongoose.connection.on("error", (err) => {
   console.log("%s MongoDB connection error. Please make sure MongoDB is running.", chalk.red("✗"));
   process.exit();
 });
-
+// #region Configuration
 /**
  * Express configuration.
  */
@@ -143,6 +144,7 @@ app.use(
     maxAge: 31557600000
   })
 );
+// #endregion
 
 /**
  * Primary app routes.
@@ -165,7 +167,10 @@ app.post("/account/password", passportConfig.isAuthenticated, userController.pos
 app.post("/account/delete", passportConfig.isAuthenticated, userController.postDeleteAccount);
 app.get("/account/unlink/:provider", passportConfig.isAuthenticated, userController.getOauthUnlink);
 app.get("/codingsolution", codingSolutionController.getCodingSolution);
+app.get("/codingsolution/seeddb", codingSolutionController.seedDatabaseCodingSolution);
+// app.get("/api/codingsolution", codingSolutionController.getDataForDatatables);
 
+// #region API examples routes.
 /**
  * API examples routes.
  */
@@ -344,6 +349,8 @@ app.get(
     res.redirect("/api/pinterest");
   }
 );
+
+// #endregion
 
 /**
  * Error Handler.

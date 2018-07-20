@@ -2,11 +2,37 @@ extends layout
 
 
 block content
-  link(rel="stylesheet", href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css")
+  //- link(rel="stylesheet", href="https://cdn.datatables.net/v/dt/jq-3.3.1/jszip-2.5.0/dt-1.10.18/af-2.3.0/b-1.5.2/b-colvis-1.5.1/b-flash-1.5.2/b-html5-1.5.2/b-print-1.5.2/cr-1.5.0/fc-3.2.5/fh-3.1.4/kt-2.4.0/r-2.2.2/rg-1.0.3/rr-1.2.4/sc-1.5.0/sl-1.2.6/datatables.min.css")
   h1 Coding Solution
+  h2 Select Options
+  .row
+    .col-sm-12
+      form(action="/codingsolution", method="get")
+        label(for="fund") Fund &nbsp
+        select#fund(name="fund")
+          each fund in funds
+            option(value=fund) #{fund}
+        label(for="division") Division &nbsp
+        select#division(name="division")
+          each division in divisions
+            option(value=division) #{division}
+        button(type="submit") Search
+
   #table-wrapper
-    table.table#coding-solution
+    table.table#coding-solution.nowrap
+      thead
+        th Code
+        th Description
+        th Note
+      tbody
+        each code in codes
+          tr
+            td #{code.accountCode}
+            td #{code.description}
+            td #{code.notes}
   
 block script
-  script(src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js')
-  script(src='/js/codingsolution/fecodingsolution.js')
+  //- script(src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js')
+  //- script(src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js')
+  //- script(src='https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.10.18/af-2.3.0/b-1.5.2/b-colvis-1.5.1/b-flash-1.5.2/b-html5-1.5.2/b-print-1.5.2/cr-1.5.0/fc-3.2.5/fh-3.1.4/kt-2.4.0/r-2.2.2/rg-1.0.3/rr-1.2.4/sc-1.5.0/sl-1.2.6/datatables.min.js')
+  //- script(src='/js/codingsolution/fecodingsolution.js')

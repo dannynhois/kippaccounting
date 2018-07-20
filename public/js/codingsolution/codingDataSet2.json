@@ -1,0 +1,627 @@
+[
+  {
+    "description": "Deferred / Prepaid",
+    "accountCode": "420-51-1410-00-999-9-00-04-501-00000",
+    "reportCateory": "Balance Sheet"
+  },
+  {
+    "description": "Communities in School",
+    "accountCode": "420-51-6219-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Inspection, Contracted Repair of KIPP Vehicles",
+    "accountCode": "420-51-6299-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Contracted Maintenance and Repair - Default",
+    "accountCode": "420-51-6249-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services",
+    "notes": "This is someone coming out to repair your school and equipment"
+  },
+  {
+    "description": "Software Upgrades - Student",
+    "accountCode": "420-51-6249-17-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Vehicle repair of KIPP vehicles",
+    "accountCode": "420-51-6299-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Cell phone expenses for teachers",
+    "accountCode": "420-51-6258-00-999-9-11-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Cell phone expenses for SPED teachers",
+    "accountCode": "420-51-6258-00-999-9-24-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Cell phone expenses for Title 1 teachers",
+    "accountCode": "420-51-6258-00-999-9-30-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Cell phone expenses for school leadership",
+    "accountCode": "420-51-6258-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Cell phone expenses for social workers",
+    "accountCode": "420-51-6258-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Monthly copier lease expenses for teachers and students",
+    "accountCode": "420-51-6268-00-999-9-11-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Monthly copier lease expenses for the main office",
+    "accountCode": "420-51-6268-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "DMV Fees",
+    "accountCode": "420-51-6299-00-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Miscellaneous Contracted Services - For Students",
+    "accountCode": "420-51-6299-00-999-9-11-04-501-00000",
+    "reportCateory": "Contracted Services",
+    "notes": "This is more of a service than a repair"
+  },
+  {
+    "description": "Referee Expenses - Athletics",
+    "accountCode": "420-51-6299-00-999-9-91-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description":
+      "Contracted Services for Professional Development for School Leaders and Office Staff - PD",
+    "accountCode": "420-51-6299-22-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services",
+    "notes": "Hiring someone to come to your school for PD"
+  },
+  {
+    "description": "Contracted Services for Professional Development for Teachers - PD",
+    "accountCode": "420-51-6299-23-999-9-99-04-501-00000",
+    "reportCateory": "Contracted Services",
+    "notes": "Hiring someone to come to your school for PD"
+  },
+  {
+    "description": "Professional Development for School Leadership - SPED",
+    "accountCode": "420-51-6299-22-999-9-24-04-501-00000",
+    "reportCateory": "Contracted Services",
+    "notes": "Hiring someone to come to your school for PD"
+  },
+  {
+    "description": "Substitute Teacher",
+    "accountCode": "420-51-6299-00-999-9-11-04-501-00000",
+    "reportCateory": "Contracted Services"
+  },
+  {
+    "description": "Gas / Oil Change for KIPP Vehicle - Athletics",
+    "accountCode": "420-51-6311-00-999-9-91-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Gas / Oil Change for KIPP Vehicle",
+    "accountCode": "420-51-6311-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Textbooks",
+    "accountCode": "420-51-6321-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Reading Materials for Teachers in the Classroom",
+    "accountCode": "420-51-6329-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Reading Materials for Students in the Classroom",
+    "accountCode": "420-51-6329-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Testing Materials for standardized tests - preparing for STAAR exam",
+    "accountCode": "420-51-6339-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Standardized tests - Actual STAAR exam",
+    "accountCode": "420-51-6339-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Testing materials for teacher created tests",
+    "accountCode": "420-51-6339-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Tests developed and administerd by teachers"
+  },
+  {
+    "description": "KPA purchases - Items for Resale - Chocolate, Popcorn, Snacks",
+    "accountCode": "190-51-6343-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Postcards, Supplies, Materials - for Student Recruitment",
+    "accountCode": "420-51-6399-27-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Athletic Supplies",
+    "accountCode": "420-51-6399-00-999-9-91-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Extracurricular Supplies",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Athletic Student Uniforms - remains at school",
+    "accountCode": "420-51-6399-00-999-9-91-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Uniform is property of school - Always Fund 420"
+  },
+  {
+    "description": "Athletic Student Uniforms - given to student as a reward",
+    "accountCode": "199-51-6399-00-999-9-91-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Student is given uniform as a reward - Always Fund 199"
+  },
+  {
+    "description": "Student Computing -  ipads, ipods, tablets, laptops, desktops, kindle",
+    "accountCode": "420-51-6397-16-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Computers for Students - ipads, ipods, tablets, laptops, desktops, kindle",
+    "accountCode": "420-51-6397-16-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Software for Students, Online Courses for Students",
+    "accountCode": "420-51-6398-17-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Equipment for students - promethean board, smart boards",
+    "accountCode": "420-51-6397-16-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "This in the classroom for students"
+  },
+  {
+    "description": "Projector lamp, Projector bulb",
+    "accountCode": "420-51-6397-16-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "This in the classroom for students"
+  },
+  {
+    "description": "Student Furniture - ABC carpets, book shelf, book shelves, desk, tables",
+    "accountCode": "420-51-6395-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Must be physically in the classroom"
+  },
+  {
+    "description": "Instructional Supplies for Teachers in the Classroom",
+    "accountCode": "420-51-6399-46-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Art Supplies - For Art Club",
+    "accountCode": "420-51-6399-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "Paper for students, pencils, pens, notebooks, planners, agendas, calculator, art supplies",
+    "accountCode": "420-51-6399-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "General Supplies for Professional Development - PD",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "When you teach a professional development - PD for teachers"
+  },
+  {
+    "description": "Supplies for attending Professional Development - PD for teachers",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "When you are asked to purchase supplies for a PD - for teachers"
+  },
+  {
+    "description": "Hardware or Computers for Teachers",
+    "accountCode": "420-51-6397-38-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "This is for use by teacher for instructional use"
+  },
+  {
+    "description": "Teacher computing - laptops, ipads, kindles, tablets FOR teachers",
+    "accountCode": "420-51-6397-38-999-9-11-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "This is for use by teacher for instructional use"
+  },
+  {
+    "description": "USPS or Postage Expenses - stamps",
+    "accountCode": "420-51-6399-39-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "Computers and Electronics for School Leadership - includes Office Managers and Office Staff",
+    "accountCode": "420-51-6397-41-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "School Leadership computing - laptops, ipads, kindles, tablets FOR school leadership and office staff",
+    "accountCode": "420-51-6397-41-999-9-99-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Not including deans or APs"
+  },
+  {
+    "description": "Software for School Leadership",
+    "accountCode": "420-51-6398-25-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Excess copies for copier machines for students and teachers",
+    "accountCode": "420-51-6399-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Office Equipment for School Leadership",
+    "accountCode": "420-51-6396-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Excess copies for School Leadership",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "Furniture purchases for main office - tables, office desk, filing cabinet - in the main office",
+    "accountCode": "420-51-6395-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies",
+    "notes": "Furniture is not physically in the classroom but main office"
+  },
+  {
+    "description":
+      "Office Supplies for School Leadership - pens, pencils, staples, staplers, ruler, binders",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Office Supplies for School Leadership - paper for use in the front office",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Office Supplies for School Leadership - paper clips, scissors, binder clips",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "Office Supplies for School Leadership - Clorox wipes, wet wipes, cleaning wipes",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description":
+      "Office Supplies for School Leadership - paper cups, plastic cups, paper plates, kitchen supplies (non consumable)",
+    "accountCode": "420-51-6399-00-999-9-99-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Blended Learning ",
+    "accountCode": "420-51-6399-00-999-9-11-04-501-00000",
+    "reportCateory": "Supplies"
+  },
+  {
+    "description": "Conference Fee, Registration Fee - Teachers",
+    "accountCode": "420-51-6411-23-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Conference Fee, Registration Fee - School Leader and Office Staff",
+    "accountCode": "420-51-6411-22-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "KIPP Summit - Teacher",
+    "accountCode": "420-51-6411-23-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "KIPP Summit - School Leader/Office Staff",
+    "accountCode": "420-51-6411-22-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "This will be expensed in FY 2018 due to Accounting Rules"
+  },
+  {
+    "description": "Mileage Reimbursement for School Leaders",
+    "accountCode": "420-51-6411-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Attending off site meetings"
+  },
+  {
+    "description":
+      "Travel Expenses for Teachers for Professional Development PD - Including: Food, Hotel",
+    "accountCode": "420-51-6411-23-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Mileage Reimbursement for teachers attending Professional Development PD",
+    "accountCode": "420-51-6411-23-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Mileage Reimbursement for School Leaders attending Professional Development PD",
+    "accountCode": "420-51-6411-22-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description":
+      "Travel Expenses for School Leadership for Professional Development PD - Including: Food, Hotel",
+    "accountCode": "420-51-6411-22-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description":
+      "Tournament Registration, Competition Fee,  - Athletics (Extracurricular Activities)",
+    "accountCode": "420-51-6412-00-999-9-91-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students",
+    "accountCode": "420-51-6412-00-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - Local Field Trips and Local Field Lessons",
+    "accountCode": "420-51-6412-00-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - Pre-K EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-13-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - KG EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-14-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 1st Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-01-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 2nd Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-02-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 3rd Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-03-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 4th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-04-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 5th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-05-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - 6th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-06-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 7th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-07-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 8th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-08-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 9th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-09-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 10th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-10-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 11th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-11-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - 12th Grade EOY Trip - End of Year Trip",
+    "accountCode": "420-51-6412-12-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "NEED Lesson Plan"
+  },
+  {
+    "description": "Travel Expenses for Students - Athletic Games",
+    "accountCode": "420-51-6412-00-999-9-91-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Art Club Competition Fee",
+    "accountCode": "420-51-6412-48-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses for Students - Extracurricular",
+    "accountCode": "420-51-6412-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Travel Expenses For Teacher Recruitment",
+    "accountCode": "420-51-6419-32-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Annual Dues for Licenses for KIPP - Membership",
+    "accountCode": "420-51-6495-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Example is GHP Membership for KIPP"
+  },
+  {
+    "description": "Graduation Expenses",
+    "accountCode": "420-51-6499-31-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Yearbook",
+    "accountCode": "420-51-6499-30-999-9-11-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Miscellaneous expenses under $50",
+    "accountCode": "420-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Over $50? Call Karla"
+  },
+  {
+    "description": "Miscellaneous expenses under $50 for fundraising",
+    "accountCode": "199-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Over $50? Call Karla"
+  },
+  {
+    "description": "Student Uniforms for Resale",
+    "accountCode": "199-51-6499-15-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Polos, t-shirts, shirts, sweatshirts for Resale",
+    "accountCode": "199-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Student Gifts or Student Reward",
+    "accountCode": "199-51-6499-29-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Student Gifts or Student Reward - shirts, t-shirts but for reward",
+    "accountCode": "199-51-6499-29-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Food for Students",
+    "accountCode": "199-51-6499-37-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Fedex Charges, UPS charges, USPS charges, courier services, delivery services",
+    "accountCode": "420-51-6499-39-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "This is not stamps but paying for the actual delivery service"
+  },
+  {
+    "description": "Staff Reward",
+    "accountCode": "199-51-6499-35-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Staff Reward - Gift Card, Spot Bonuses - Must be put on KIPP SHARE",
+    "accountCode": "191-51-6149-35-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Must be put in KIPP Share and provide pdf of proof of KIPP Share - Always Fund 191"
+  },
+  {
+    "description":
+      "Staff food for meetings - must include Agenda and sign in sheet - for teachers, Lunch",
+    "accountCode": "420-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description":
+      "Staff food for meetings - must include Agenda and sign in sheet - for School Leadership",
+    "accountCode": "420-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Flowers",
+    "accountCode": "199-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "Shirts For Student Recruitment",
+    "accountCode": "199-51-6499-27-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 199"
+  },
+  {
+    "description": "KPA - Staff Food",
+    "accountCode": "190-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses",
+    "notes": "Always Fund 190"
+  },
+  {
+    "description": "Gift Card - For Parents / Non-Employee",
+    "accountCode": "199-51-6499-00-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Fundraising - Staff Reward",
+    "accountCode": "199-51-6499-35-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Fundraising - Student Gifts or Student Reward",
+    "accountCode": "199-51-6499-29-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "Athletic Student Food",
+    "accountCode": "199-51-6499-37-999-9-91-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  },
+  {
+    "description": "KPA - Student Reward",
+    "accountCode": "190-51-6499-29-999-9-99-04-501-00000",
+    "reportCateory": "Misc Expenses"
+  }
+]

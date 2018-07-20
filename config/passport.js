@@ -42,6 +42,8 @@ passport.use(new LocalStrategy({ usernameField: 'email' }, (email, password, don
   });
 }));
 
+
+// #region OAuth Strategies
 /**
  * OAuth Strategy Overview
  *
@@ -529,6 +531,8 @@ passport.use('pinterest', new OAuth2Strategy({
     });
   });
 }));
+
+// #endregion
 
 /**
  * Login Required middleware.
