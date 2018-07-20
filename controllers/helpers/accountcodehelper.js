@@ -2,18 +2,20 @@ function customizeCode(original, options) {
   // separate original code
   const values = original.split("-");
   // console.log(`values: ${values} fund: ${values[0]}`);
+  console.log(`original code: ${original}`);
 
-  const code = {};
-  code.fund = values[0];
-  code.function = values[1];
-  code.account = values[2];
-  code.subobject = values[3];
-  code.organization = values[4];
-  code.fiscalYear = values[5];
-  code.pic = values[6];
-  code.region = values[7];
-  code.division = values[8];
-  code.subfund = values[9];
+  const code = {
+    fund: values[0],
+    function: values[1],
+    account: values[2],
+    subobject: values[3],
+    organization: values[4],
+    fiscalYear: values[5],
+    pic: values[6],
+    region: values[7],
+    division: values[8],
+    subfund: values[9]
+  };
 
   //
   if (code.fund === "xxx") code.fund = options.fund;
@@ -28,6 +30,7 @@ function customizeCode(original, options) {
     code.fund,
     code.function,
     code.account,
+    code.subobject,
     code.organization,
     code.fiscalYear,
     code.pic,
@@ -51,7 +54,6 @@ function getAllCodes(options) {
   resultOptions.division = options.division || "111";
   resultOptions.subfund = options.subfund || "00000";
   const jsonData = require("../../public/js/codingsolution/codingSolutionJson20180718.json");
-  console.log(jsonData[0].accountCode);
   const results = jsonData.map((data) => {
     // console.log(code);
     data.accountCode = customizeCode(data.accountCode, resultOptions);
