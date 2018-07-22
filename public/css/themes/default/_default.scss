@@ -1,12 +1,9 @@
 @import "node_modules/@ladjs/bootstrap-social/bootstrap-social.scss";
-
 // Buttons
 // -------------------------
-
 .btn {
   border-radius: 0;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.11), 1px 1px 0 rgba(255, 255, 255, 0.21) inset;
-
   &:focus {
     outline: none;
   }
@@ -16,7 +13,10 @@
   box-shadow: none;
 }
 
-.btn-raised, .btn-raised:focus, .btn-raised:active, .btn-raised:hover {
+.btn-raised,
+.btn-raised:focus,
+.btn-raised:active,
+.btn-raised:hover {
   color: rgb(51, 51, 51);
   background-image: linear-gradient(to bottom, #ffffff 60%, #f8f8f8 100%);
   border-color: rgb(204, 204, 204);
@@ -24,14 +24,12 @@
 
 // Forms
 // -------------------------
-
 .form-control:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
 }
 
 // Alerts
 // -------------------------
-
 .alert {
   border-radius: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
@@ -39,14 +37,13 @@
 
 // Navbar
 // -------------------------
-
-.navbar-light {
+.navbar-kipp {
   border: 0;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  background: #ffffff;
+  background: $kipp-darkblue;
   opacity: 0.9;
   .navbar-nav {
-    > li > a {
+    >li>a {
       font-size: 12px;
       font-weight: 500;
       text-transform: uppercase;
@@ -55,42 +52,48 @@
       padding-bottom: 10px;
     }
     .nav-link {
-      color: black;
+      color: $navbar-kipp-color;
       padding-left: 15px;
       padding-right: 15px;
     }
+    .nav-link:hover {
+      color: $kipp-green;
+    }
+    .nav-link:active {
+      color: $kipp-green;
+    }
   }
   .navbar-brand {
-    color: $navbar-light-color;
+    color: $navbar-kipp-color;
     line-height: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
   .navbar-toggler {
     border-bottom-color: rgb(221, 221, 221);
-    color: rgb(51,51,51);
+    color: $kipp-green;
   }
   .navbar-toggler:focus {
-    background: rgb(221, 221, 221);
+    background: $kipp-green;
   }
-
   .navbar-toggler:hover {
-    background: rgb(221, 221, 221);
+    background: $kipp-green;
   }
 }
 
 .navbar-toggler-icon {
-  color: rgb(51,51,51);
+  color: $kipp-green;
 }
 
 .dropdown-item {
-  > a {
-    color: black;
+  >a {
+    color: $kipp-lightblue;
     text-decoration: none;
   }
 }
 
 .dropdown-menu {
   left: initial;
-  right: 0; /* add right with 0 or a low pixel value */
+  right: 0;
+  /* add right with 0 or a low pixel value */
 }
