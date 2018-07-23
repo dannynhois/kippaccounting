@@ -2,7 +2,7 @@ function customizeCode(original, options) {
   // separate original code
   const values = original.split("-");
   // console.log(`values: ${values} fund: ${values[0]}`);
-  console.log(`original code: ${original}`);
+  // console.log(`original code: ${original}`);
 
   const code = {
     fund: values[0],
@@ -54,8 +54,9 @@ function getAllCodes(options) {
   resultOptions.division = options.division || "111";
   resultOptions.subfund = options.subfund || "00000";
   const jsonData = require("../../public/js/codingsolution/codingSolutionJson20180718.json");
+  // TODO: Need to figure out why jsonData is being changed
+  console.log(jsonData[0].accountCode);
   const results = jsonData.map((data) => {
-    // console.log(code);
     data.accountCode = customizeCode(data.accountCode, resultOptions);
     return data;
   });

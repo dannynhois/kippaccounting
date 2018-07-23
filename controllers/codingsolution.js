@@ -43,18 +43,26 @@ exports.seedDatabaseCodingSolution = (req, res) => {
   const unknownUser = !req.user;
 
   // let test = new CodingSolutionVM(jsonData[1]);
-  const values = jsonData[1].accountCode.split("-");
-  const record = {
-    fund: values[0],
-    function: values[1],
-    account: `${values[2]}-${values[3]}`,
-    organization: values[4],
-    fiscalYear: values[5],
-    pic: values[6],
-    region: values[7],
-    division: values[8],
-    subfund: values[9]
-  };
+  const jsonData = require("../../public/js/codingsolution/codingSolutionJson20180718.json");
+  jsonData.forEach((cs) => {
+    const values = cs.accountCode.split("-");
+    const record = {
+      fund: values[0],
+      function: values[1],
+      account: `${values[2]}-${values[3]}`,
+      organization: values[4],
+      fiscalYear: values[5],
+      pic: values[6],
+      region: values[7],
+      division: values[8],
+      subfund: values[9]
+    };
+    const data = new CodingSolutionVM {
+      description = cs.description,
+      accountCode = 
+    }
+  });
+
   console.log(record);
   const test = new AccountCode(record);
   // test.code = jsonData[1].accountCode;
