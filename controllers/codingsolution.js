@@ -57,10 +57,6 @@ exports.seedDatabaseCodingSolution = (req, res) => {
       division: values[8],
       subfund: values[9]
     };
-    const data = new CodingSolutionVM {
-      description = cs.description,
-      accountCode = 
-    }
   });
 
   console.log(record);
