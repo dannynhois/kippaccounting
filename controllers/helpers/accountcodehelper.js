@@ -54,13 +54,13 @@ function getAllCodes(options) {
   resultOptions.division = options.division || "111";
   resultOptions.subfund = options.subfund || "00000";
   const jsonData = require("../../public/js/codingsolution/codingSolutionJson20180718.json");
-  // TODO: Need to figure out why jsonData is being changed
-  console.log(jsonData[0].accountCode);
-  const results = jsonData.map((data) => {
+  console.log(`jSon ${jsonData[0].accountCode}`);
+  const jsonDataCopy = JSON.parse(JSON.stringify(jsonData)); // deep copy jsonData
+  const results = jsonDataCopy.map((data) => {
     data.accountCode = customizeCode(data.accountCode, resultOptions);
     return data;
   });
-  console.log(results[0].accountCode);
+  console.log(`results ${results[0].accountCode}`);
   return results;
 }
 module.exports = getAllCodes;

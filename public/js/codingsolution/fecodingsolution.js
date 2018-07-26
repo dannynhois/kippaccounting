@@ -20,28 +20,22 @@ const copyToClipboard = (str) => {
 
 const codingDataSet = [];
 
-// function setDataTables() {
-//   $("#coding-solution").DataTable({
-//     ajax: {
-//       url: "/api/codingsolution",
-//       dataSrc: ""
-//     },
-//     data: "",
-//     paging: false,
-//     columns: [
-//       { data: "accountCode", title: "Account Code"},
-//       { data: "description", title: "Description" },
-//       { data: "reportCateory", title: "Report Category" },
-//       { data: "notes", title: "Notes", defaultContent: "" },
-//     ],
-//     scrollX: true,
-//     scrollY: true,
-//     select: true,
-//   });
-// }
+function setDataTables() {
+  $("#coding-solution").DataTable({
+    // ajax: {
+    //   url: "/api/codingsolution",
+    //   dataSrc: ""
+    // },
+    // data: "",
+    // className: "nowrap compact",
+    columns: [{ className: "nowrap" }, {}, {}],
+    paging: false,
+    // scrollX: true,
+    scrollY: true,
+    select: true
+  });
+}
 
 $(document).ready(() => {
-  // setDataTables();
-  // let data = $.get("/api/codingsolution");
-  // console.log(data);
+  setDataTables();
 });

@@ -81,7 +81,8 @@ app.use(session({
   resave: true,
   saveUninitialized: true,
   secret: process.env.SESSION_SECRET,
-  cookie: { maxAge: 1209600000 }, // two weeks in milliseconds
+  // cookie: { maxAge: 1209600000 }, // two weeks in milliseconds
+  cookie: { maxAge: 1 }, // two weeks in milliseconds
   store: new MongoStore({
     url: process.env.MONGODB_URI,
     autoReconnect: true
@@ -119,29 +120,29 @@ app.use((req, res, next) => {
   }
   next();
 });
-app.use("/", express.static(path.join(__dirname, "public"), { maxAge: 31557600000 }));
+app.use("/", express.static(path.join(__dirname, "public"), { maxAge: 1 })); // originaal maxAge:31557600000
 app.use(
   "/js/lib",
   express.static(path.join(__dirname, "node_modules/popper.js/dist"), {
-    maxAge: 31557600000
+    maxAge: 1
   })
 );
 app.use(
   "/js/lib",
   express.static(path.join(__dirname, "node_modules/bootstrap/dist/js"), {
-    maxAge: 31557600000
+    maxAge: 1
   })
 );
 app.use(
   "/js/lib",
   express.static(path.join(__dirname, "node_modules/jquery/dist"), {
-    maxAge: 31557600000
+    maxAge: 1
   })
 );
 app.use(
   "/webfonts",
   express.static(path.join(__dirname, "node_modules/@fortawesome/fontawesome-free/webfonts"), {
-    maxAge: 31557600000
+    maxAge: 1
   })
 );
 // #endregion
