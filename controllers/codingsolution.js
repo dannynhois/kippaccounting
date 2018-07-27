@@ -3,6 +3,56 @@ const fs = require("fs");
 const CodingSolutionVM = require("../models/CodingSolution");
 const AccountCode = require("../models/AccountCode");
 const getAllCodes = require("./helpers/accountcodehelper");
+
+const getValuesForDropDown = () => {
+  const funds = [
+    {
+      name: "420 - State Funds",
+      value: "420"
+    },
+    {
+      name: "410 - IMA (Textbook)",
+      value: "410"
+    },
+    {
+      name: "199 - Local Funds",
+      value: "199"
+    },
+    {
+      name: "197 - Above and Beoynd",
+      value: "197"
+    },
+    {
+      name: "263 - Title 3",
+      value: "263"
+    },
+    {
+      name: "190 - KPA",
+      value: "190"
+    }
+  ];
+
+  const divisions = [
+    {
+      name: "Austin Collegiate",
+      value: "302"
+    },
+    {
+      name: "Austin Brave",
+      value: "301"
+    },
+    {
+      name: "KHHS",
+      value: "304"
+    },
+  ]
+
+  return {
+    funds,
+    divisions
+  };
+};
+
 /**
  * GET /codingsolution
  * Coding solution page.
@@ -10,8 +60,10 @@ const getAllCodes = require("./helpers/accountcodehelper");
 
 exports.getCodingSolution = (req, res) => {
   const unknownUser = !req.user;
+  const { school } = req.params;
   const options = req.query;
-  // console.log(`params ${JSON.stringify(options)}`);
+  const dropdowns = getValuesForDropDown();
+  console.log(school);
 
   // set defaults
   options.fund = options.fund || "420";
@@ -31,8 +83,7 @@ exports.getCodingSolution = (req, res) => {
 
   res.render("codingsolution", {
     title: "Coding Solution",
-    funds: ["420", "199", "211"],
-    divisions: ["111", "222", "333"],
+    dropdowns,
     codes,
     unknownUser,
     selection: options

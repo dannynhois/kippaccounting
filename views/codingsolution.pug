@@ -10,12 +10,12 @@ block content
       form(action="/codingsolution", method="get")
         label(for="fund") Fund &nbsp
         select#fund(name="fund")
-          each fund in funds
-            option(value=fund selected = selection.fund == fund) #{fund}
+          each fund in dropdowns.funds
+            option(value=fund.value selected = selection.fund == fund.value) #{fund.name}
         label(for="division") Division &nbsp
         select#division(name="division")
-          each division in divisions
-            option(value=division selected = selection.division == division) #{division}
+          each division in dropdowns.divisions
+            option(value=division.value selected = selection.division == division.value) #{division.name}
         button(type="submit") Search
 
   #table-wrapper
