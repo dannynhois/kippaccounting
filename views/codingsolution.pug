@@ -8,15 +8,21 @@ block content
   .row
     .col-sm-12
       form(action="/codingsolution", method="get")
-        label(for="fund") Fund &nbsp
+        label School &nbsp
+        select#school(name="school") 
+          each school in dropdowns.schools
+            option(value=school.key selected = selection.school == school.key) #{school.name}
+        br
+        label(for="fund") Fund &nbsp &nbsp
         select#fund(name="fund")
           each fund in dropdowns.funds
-            option(value=fund.value selected = selection.fund == fund.value) #{fund.name}
-        label(for="division") Division &nbsp
-        select#division(name="division")
-          each division in dropdowns.divisions
-            option(value=division.value selected = selection.division == division.value) #{division.name}
-        button(type="submit") Search
+            option(value=fund.fund selected = selection.fund == fund.fund) #{fund.name}
+        br
+        label(for="fund") Year &nbsp &nbsp &nbsp
+        select#fund(name="fiscalYear")
+          each year in dropdowns.years
+            option(value=year.year selected = selection.fiscalYear == year.year) #{year.name}
+        button(type="submit")  Change
 
   #table-wrapper
     table.table#coding-solution.nowrap

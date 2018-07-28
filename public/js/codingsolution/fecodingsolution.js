@@ -30,7 +30,7 @@ function setDataTables() {
     // className: "nowrap compact",
     columns: [{ className: "nowrap" }, {}, {}],
     paging: false,
-    // scrollX: true,
+    scrollX: true,
     scrollY: true,
     select: true
   });

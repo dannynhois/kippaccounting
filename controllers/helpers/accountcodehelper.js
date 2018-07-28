@@ -24,6 +24,7 @@ function customizeCode(original, options) {
   if (code.region === "xx") code.region = options.region;
   if (code.division === "xxx") code.division = options.division;
   if (code.subfund === "xxxxx") code.subfund = options.subfund;
+  code.pic = options.pic || code.pic;
 
   // return new code
   const fullcode = [
@@ -49,7 +50,7 @@ function getAllCodes(options) {
   resultOptions.subobject = options.subobject || "00";
   resultOptions.organization = options.organization || "999";
   resultOptions.fiscalYear = options.fiscalYear || "8";
-  resultOptions.pic = options.pic || "xx";
+  resultOptions.pic = options.pic || null;
   resultOptions.region = options.region || "01";
   resultOptions.division = options.division || "111";
   resultOptions.subfund = options.subfund || "00000";
