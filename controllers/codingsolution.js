@@ -430,7 +430,6 @@ exports.getCodingSolution = (req, res) => {
   const school = req.params.school || options.school || "austincollegiate";
   options.school = school;
   const dropdowns = getValuesForDropDown();
-  console.log(school);
 
   // set defaults
   options.fund = options.fund || "420";
